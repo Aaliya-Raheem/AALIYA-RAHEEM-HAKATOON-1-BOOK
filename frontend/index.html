@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aaliya Raheem Physical Humanize AI Robot</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lexend:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="main-container">
+
+        <!-- Sidebar for Chapter Navigation -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h2>Chapters</h2>
+            </div>
+            <nav id="chapter-nav">
+                <!-- Chapter links will be dynamically inserted here by script.js -->
+            </nav>
+            <div class="theme-switcher-container">
+                <label for="theme-toggle" class="theme-label">
+                    <span class="icon-sun">☀️</span>
+                    <span class="icon-moon">🌙</span>
+                </label>
+                <input type="checkbox" id="theme-toggle">
+                <span>Dark Mode</span>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="content-area">
+            <header class="main-header">
+                <h1>Aaliya Raheem Physical Humanize AI Robot</h1>
+            </header>
+
+            <section id="book-content">
+                <!-- Chapter cards or full chapter view will be loaded here -->
+            </section>
+        </main>
+
+        <!-- AI Chat Panel -->
+        <aside class="chat-panel">
+            <div class="chat-header">
+                <h2>AI Assistant</h2>
+                <button id="toggle-chat-panel" title="Toggle Chat Panel">
+                    <span>&times;</span>
+                </button>
+            </div>
+            <div class="chat-messages" id="chat-messages">
+                <!-- Chat messages will appear here -->
+                <div class="message assistant">
+                    <p>Hello! I am the Aaliya Raheem AI assistant. I can answer questions about the book content. How can I help you?</p>
+                </div>
+            </div>
+            <div class="chat-input-container">
+                <div class="chat-spinner" id="chat-spinner" style="display: none;"></div>
+                <input type="text" id="chat-input" placeholder="Ask a question about the book...">
+                <button id="chat-send-button">Send</button>
+            </div>
+        </aside>
+
+        <button id="open-chat-button" title="Open Chat Panel">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#FFFFFF"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M21 6h-2v9H6v2c0 .55.45 1 1 1h11l4 4V7c0-.55-.45-1-1-1zm-4 6V4c0-.55-.45-1-1-1H3c-.55 0-1 .45-1 1v14l4-4h10c.55 0 1-.45 1-1z"/></svg>
+        </button>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
